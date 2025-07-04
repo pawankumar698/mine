@@ -85,7 +85,7 @@
     margin-left: 155px;
     font-size: 1rem;
     font-weight: bold;
-    line-height: 10px;
+    line-height: 6px;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
@@ -160,7 +160,12 @@
 
   }
   #projects-timeline-section{
-    scroll-behavior: smooth;
+   background: unset;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 6s;
   }
   
   #projects-timeline-section h2 {
@@ -179,11 +184,11 @@
     max-width: 400px;
     margin: 0 auto;
     border-left: 2px solid rgb(95, 108, 172);
-    padding-left: 50px;
+    padding-left: 30px;
     position: relative;
     animation: slideTop 1s ease forwards;
     opacity: 0;
-    /* animation-delay: 4s; */
+    animation-delay: 4s;
   }
   
   .timeline-item {
@@ -261,7 +266,7 @@
   
   #skills-timeline-section {
      background: unset;
-    padding: 60px 20px;
+    padding: 40px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 0;
     animation: slideTop 1s ease forwards;
@@ -360,7 +365,7 @@
   
   
   #experience-timeline-section {
-    padding: 60px 20px;
+    padding: 40px 20px;
     padding-top: 0px;
     opacity: 0;
     animation: slideTop 1s ease forwards;
@@ -454,7 +459,7 @@
   
   #resume-section{
     
-    padding: 60px 20px;
+    padding: 40px 20px;
     padding-top: 0px;
     opacity: 0;
     animation: slideTop 1s ease forwards;
@@ -488,19 +493,27 @@
   }
   .contact{
     color: whitesmoke;
-   margin-left: 50px;
+    padding: 20px;
    display: flex;
+   text-align: center;
     
    
   }
   .con p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    text-align: center;
 
   }
+  #mob{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 550;
+    text-align: center;
+  }
   .con{
-    text-align: left;
+    text-align: center;
     
     font-size: 1rem;
     opacity: 0;
@@ -511,9 +524,9 @@
     text-align: left;
     justify-content: right;
     align-items: flex-end;
-    margin-left: 700px;
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 25px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
@@ -534,13 +547,13 @@
   .social-icons {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 10px;
     margin-bottom: 15px;
   }
   
   .social-icons a {
     color: #f3f4f6;
-    font-size: 1.6rem;
+    font-size: 1rem;
     transition: color 0.3s ease;
   }
   
