@@ -497,7 +497,7 @@
     color: whitesmoke;
     padding: 20px;
    display: flex;
-   text-align: center;
+
       
     
    
@@ -505,7 +505,7 @@
   
   #mob{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  line-height: 15px;
     font-size: 0.8rem;
     text-align: center;
       padding: 20px;
@@ -517,6 +517,8 @@
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
+    margin-left: 30px;
+    color: white;
 
     animation: slideRight 1s ease forwards;
     animation-delay: 12s;
