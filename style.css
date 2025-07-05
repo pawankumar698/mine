@@ -476,7 +476,7 @@
   .resume-item{
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: whitesmoke;
     line-height: 1.6;
     text-align: center;
@@ -486,6 +486,7 @@
   .resume-item p{
      font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
+      opacity: 0.95;
   }
   #pdf1{
     text-decoration: none;
@@ -501,9 +502,11 @@
   }
   .con p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    font-size: 1rem;
+    font-weight: lighter;
+    font-size: 0.8rem;
     text-align: center;
+      padding: 20px;
+      
 
   }
   #mob{
