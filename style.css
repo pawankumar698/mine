@@ -121,6 +121,7 @@
     text-align: left;
     background: unset;
     line-height: 28px;
+      font-size: 0.8rem;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1.4s;
@@ -131,6 +132,7 @@
     color: white;
     /* margin-left: 430px; */
     line-height: 28px;
+      font-size: 0.8rem;
     margin-top: 0px;
     padding-top: 0px;
     padding-left: 20px;
