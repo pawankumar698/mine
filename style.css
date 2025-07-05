@@ -508,7 +508,7 @@
   line-height: 25px;
     font-size: 0.8rem;
     text-align: center;
-      padding: 20px;
+      
       opacity: 0.95;
       font-weight: 100;
   }
@@ -517,9 +517,9 @@
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
-    margin-left: 75px;
+    margin-left: 55px;
     color: white;
-
+    
     animation: slideRight 1s ease forwards;
     animation-delay: 12s;
   }
