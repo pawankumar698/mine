@@ -480,13 +480,14 @@
     color: whitesmoke;
     line-height: 1.6;
     text-align: center;
-    
+    font-weight: 100;
   }
 
   .resume-item p{
      font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
       opacity: 0.95;
+      
   }
   #pdf1{
     text-decoration: none;
@@ -497,28 +498,24 @@
     padding: 20px;
    display: flex;
    text-align: center;
+      
     
    
   }
-  .con p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  #mob{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
     font-size: 0.8rem;
     text-align: center;
       padding: 20px;
-      
-
-  }
-  #mob{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 550;
-    text-align: center;
+      opacity: 0.95;
+      font-weight: 450;
   }
   .con{
     text-align: center;
-    
-    font-size: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
     opacity: 0;
     animation: slideRight 1s ease forwards;
     animation-delay: 12s;
