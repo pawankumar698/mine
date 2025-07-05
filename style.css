@@ -63,7 +63,7 @@
 
 
   #sec3{
-    top: 60%;
+    top: 65%;
     text-align: left;
    
   }
@@ -116,7 +116,7 @@
   #s3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    margin-top: 20px;
+    margin-top: 25px;
     padding: 20px;
     text-align: left;
     background: unset;
@@ -212,8 +212,9 @@
   }
   
 #time {
-    font-size: 1rem;
-    padding-left: 10px;
+    font-size: 0.8rem;
+    padding-left: 13px;
+  
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
@@ -482,7 +483,7 @@
     color: whitesmoke;
     line-height: 1.6;
     text-align: center;
-    font-weight: 100;
+    font-weight: 300;
   }
 
   .resume-item p{
