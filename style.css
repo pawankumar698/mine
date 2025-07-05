@@ -505,9 +505,10 @@
   
  #mob{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 350;
     color: white;
+     line-height: 25px;
     text-align: center;
   }
   .con{
@@ -515,11 +516,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
     opacity: 0;
-    line-height: 35px;
+    
     color: white;
     font-weight: bold;
-    animation: slideRight 1s ease forwards;
-    animation-delay: 12s;
+/*     animation: slideRight 1s ease forwards; */
+/*     animation-delay: 12s; */
   }
   #footer {
     background-color:  rgb(26, 14, 56); 
