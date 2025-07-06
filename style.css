@@ -167,7 +167,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay: 6s;
+    animation-delay: 2s;
   }
   
   #projects-timeline-section h2 {
@@ -190,7 +190,7 @@
     position: relative;
     animation: slideTop 1s ease forwards;
     opacity: 0;
-    animation-delay: 4s;
+    
   }
   
   .timeline-item {
@@ -272,7 +272,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay: 6s;
+    animation-delay: 3s;
    
   }
   
@@ -371,7 +371,7 @@
     padding-top: 0px;
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay: 8s;
+    animation-delay: 4s;
    
   }
   
@@ -465,7 +465,7 @@
     padding-top: 0px;
     opacity: 0;
     animation: slideTop 1s ease forwards;
-    animation-delay: 10s;
+    animation-delay: 6s;
    
   }
   #resume-section h2{
