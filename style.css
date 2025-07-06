@@ -478,7 +478,7 @@
   .resume-item{
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
+    
     color: whitesmoke;
     line-height: 1.6;
     text-align: center;
@@ -486,8 +486,9 @@
   }
 
   .resume-item p{
-     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+      font-weight: 350;
   }
   #pdf1{
     text-decoration: none;
